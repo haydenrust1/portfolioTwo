@@ -1,13 +1,19 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 import './style.css'
+import Col from '../Column'
+import Row from '../Row'
+import Container from '../Container';
 
 function Footer() {
     return(
-        <footer className='footer'>
-            <div className="col card-footer text-muted">
-                <div className="row">
+        <div className='footer'>
+            <Container>
+                <Row>
+                    <Col>
                     <p> © Hayden Rust</p>
+                    </Col>
+                    <Col>
                     <div className="contactIcons">
                         <Link 
                         className="jumboP" 
@@ -34,9 +40,10 @@ function Footer() {
                             <i className="far fa-file" />
                         </Link>
                     </div>
-                </div>
-            </div>
-        </footer>
+                    </Col>
+                </Row>
+            </Container>
+        </div>
     
     )
 }

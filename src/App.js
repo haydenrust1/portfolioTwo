@@ -6,15 +6,13 @@ import Portfolio from './pages/Portfolio';
 import Contact from "./pages/Contact";
 import Navbar from './components/Navbar/';
 import Footer from './components/Footer/';
+import Background from './components/Background';
 
 function App() {
   return (
     <Router>
+        <Background>
         <Navbar />
-        {/* <Route exact path="/" component={Home} />
-        <Route exact path="/Home" component={Home} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/contact" component={Contact} /> */}
         <Switch>
           <Route exact path={["/", "/home"]} >
             <Home />
@@ -26,6 +24,7 @@ function App() {
             <Contact />
           </Route>
         </Switch>
+        </Background>
         <Footer />
     </Router>
   );

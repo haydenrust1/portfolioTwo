@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
 import Container from '../components/Container/';
 import Row from '../components/Row/';
 import Column from '../components/Column/';
@@ -8,19 +7,16 @@ import './Contact.css'
 
 
 function Contact() {
-    const style = {
-        backgroundImage: "url(images/galaxy.jpg)",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-        backgroundPosition: "center center"
-    }
     return(
-        <div className="view" style={style}>
         <Container>
             <Row>
                 <Column>
                     <Jumbotron className='contactJumbo'>
                         <h1 className="contactHeader">Contact Me</h1>
+                        <img src="/images/IMG_0132.JPG" class="img-thumbnail"
+                        alt="myself on the beach giving a shaka" 
+                        style={{height:'250px', width:'200px'}}
+                        />
                         <div className="contactDiv">
                             <a 
                             className="contactIcon" 
@@ -51,7 +47,6 @@ function Contact() {
                 </Column>
             </Row>
         </Container>
-        </div>
     )
 }
 

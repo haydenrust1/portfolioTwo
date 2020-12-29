@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col';
 
 function FileColumn(props) {
     return(
-        <Col>
+        <Col >
             {props.children}
         </Col>
     )

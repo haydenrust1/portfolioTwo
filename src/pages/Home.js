@@ -3,39 +3,21 @@ import Jumbotron from '../components/Jumbotron';
 import HomeContainer from '../components/Container';
 import Row from '../components/Row';
 import Col from '../components/Column';
+import Astronaut from '../components/Astronaut';
 
 function Home() {
-    const pageStyle = {
-        backgroundImage: `url(/images/galaxy.jpg)`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-        backgroundPosition: "center center"
-    }
     return(
-        <div 
-        className="view"
-        style={pageStyle}
-        >
             <HomeContainer>
                 <Row>
                     <Col>
                         <Jumbotron style={{
                             backgroundColor: "transparent",
-                            color: 'white'
+                            color: 'white',
                             }}>
                             <h1 className="display-4">Welcome!</h1>
                             <p className="lead">Have a look around</p>
                             <hr className="my-4" />
-                            <img 
-                            src="/images/astronaut.png"
-                            height='100'
-                            width='100' 
-                            id="myFace" 
-                            className="img-thumbnail"                           
-                            alt="myself on the beach giving a shaka" 
-                            rounded='true'
-                            style={{backgroundColor: "transparent", border: "none"}}
-                            />
+                            <Astronaut />
                             <p>What an honor it is to have a visitor in my humble online abode!
                             <br />
                             Please make yourself at home, stay as long as you want, and have a look around.
@@ -59,9 +41,7 @@ function Home() {
                         </Jumbotron>
                     </Col>
                 </Row>
-            </HomeContainer>
-        </div>
-    
+            </HomeContainer>    
     )
 }
 

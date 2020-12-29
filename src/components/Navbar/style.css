@@ -1,3 +1,8 @@
-.navbar {
-    background: none;
+.navbar-brand, .nav-link{
+    background-color: transparent;
+    color: white !important;
+}
+
+.navbar-toggler {
+    color: white !important;
 }
