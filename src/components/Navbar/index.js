@@ -5,8 +5,8 @@ import './style.css'
 
 function NavigationBar() {
     return(
-        <Navbar collapseOnSelect className='navbar' expand="lg" bg="dark" variant="dark">
-            <Navbar.Brand href="/home">Hayden's Portfolio</Navbar.Brand>
+        <Navbar collapseOnSelect expand="lg">
+            <Navbar.Brand href="/">Hayden's Portfolio</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">

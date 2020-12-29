@@ -2,3 +2,13 @@
     /* background-color: ; */
     margin-top: 10px;
 }
+
+.contactIcons {
+    position: absolute;
+    right: 10px;
+}
+
+.jumboP {
+    margin: 5px 8px;
+    color: #6c757d;
+}

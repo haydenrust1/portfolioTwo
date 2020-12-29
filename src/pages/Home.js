@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import Jumbotron from '../components/Jumbotron/';
-import HomeContainer from '../components/Container'
-import Row from '../components/Row/';
-import Col from '../components/Column'
+import Jumbotron from '../components/Jumbotron';
+import HomeContainer from '../components/Container';
+import Row from '../components/Row';
+import Col from '../components/Column';
+
 function Home() {
     const pageStyle = {
         backgroundImage: `url(/images/galaxy.jpg)`,
@@ -27,15 +27,16 @@ function Home() {
                             <p className="lead">Have a look around</p>
                             <hr className="my-4" />
                             <img 
-                            src="/images/IMG_0132.JPG"
+                            src="/images/astronaut.png"
                             height='100'
                             width='100' 
                             id="myFace" 
                             className="img-thumbnail"                           
                             alt="myself on the beach giving a shaka" 
                             rounded='true'
+                            style={{backgroundColor: "transparent", border: "none"}}
                             />
-                            <p className="jumboP">What an honor it is to have a visitor in my humble online abode!
+                            <p>What an honor it is to have a visitor in my humble online abode!
                             <br />
                             Please make yourself at home, stay as long as you want, and have a look around.
                             <br />
@@ -56,38 +57,6 @@ function Home() {
                             are beyond belief!
                             </p>
                         </Jumbotron>
-                    </Col>
-                </Row>
-
-                <Row>
-                    <Col>
-                        <div id="contactIcons">
-                            <Link 
-                            className="jumboP" 
-                            to="https://www.linkedin.com/inhayden-rust-857516167/" 
-                            target="_blank">
-                                <i className="fab fa-linkedin" />
-                            </Link>
-                            <Link 
-                            className="jumboP" 
-                            to="https://www.linkedin.com/inhayden-rust-857516167/" 
-                            target="_blank">
-                                <i className="fab fa-github-square" />
-                            </Link>
-                            <Link 
-                            className="jumboP" 
-                            to="mailto: haydenrust1@gmail.com"
-                            target="_blank">
-                                
-                                <i className="fas fa-envelope-square" />
-                            </Link>
-                            <Link 
-                            className="jumboP" 
-                            to="../../public/Hayden-Rust-Resume.pdf" 
-                            target="_blank">
-                                <i className="far fa-file" />
-                            </Link>
-                        </div>
                     </Col>
                 </Row>
             </HomeContainer>

@@ -1,0 +1,20 @@
+.jumbotron {
+    height: 100vh;
+    text-align: center;
+    background-color: transparent !important;
+}
+
+.contactDiv {
+    margin-top: 150px;
+    /* font-size: 24px; */
+}
+
+.contactIcon {
+    color: white;
+    margin: 0px 30px;
+}
+
+.contactHeader {
+    color: white;
+    font-size: 60px;
+}
