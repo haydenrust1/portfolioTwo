@@ -1,9 +1,9 @@
 import React from 'react';
-import Container from '../components/Container/';
-import Row from '../components/Row/';
-import Column from '../components/Column/';
-import Jumbotron from '../components/Jumbotron/'
-import './Contact.css'
+import Container from '../Container';
+import Row from '../Row';
+import Column from '../Column';
+import Jumbotron from '../Jumbotron'
+import './style.css'
 
 
 function Contact() {
@@ -12,11 +12,8 @@ function Contact() {
             <Row>
                 <Column>
                     <Jumbotron className='contactJumbo'>
+                        <a name='contact' />
                         <h1 className="contactHeader">Contact Me</h1>
-                        <img src="/images/IMG_0132.JPG" class="img-thumbnail"
-                        alt="myself on the beach giving a shaka" 
-                        style={{height:'250px', width:'200px'}}
-                        />
                         <div className="contactDiv">
                             <a 
                             className="contactIcon" 

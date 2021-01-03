@@ -4,20 +4,31 @@ import HomeContainer from '../components/Container';
 import Row from '../components/Row';
 import Col from '../components/Column';
 import Astronaut from '../components/Astronaut';
+import Portfolio from '../components/Portfolio';
+import Contact from '../components/Contact'
 
 function Home() {
     return(
             <HomeContainer>
                 <Row>
                     <Col>
-                        <Jumbotron style={{
-                            backgroundColor: "transparent",
-                            color: 'white',
-                            }}>
+                        <Jumbotron>
+                            <a name='home' />
                             <h1 className="display-4">Welcome!</h1>
-                            <p className="lead">Have a look around</p>
+                            <p className="lead">My name is Hayden Rust and
+                            <br />
+                            I am a full stack web developer
+                            </p>
+                            <p>Have a look around</p>
                             <hr className="my-4" />
                             <Astronaut />
+                        </Jumbotron>
+                    </Col>
+                </Row>
+                <Portfolio />
+                <Row>
+                    <Col>
+                        <Jumbotron>
                             <p>What an honor it is to have a visitor in my humble online abode!
                             <br />
                             Please make yourself at home, stay as long as you want, and have a look around.
@@ -39,6 +50,11 @@ function Home() {
                             are beyond belief!
                             </p>
                         </Jumbotron>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <Contact />
                     </Col>
                 </Row>
             </HomeContainer>    

@@ -1,18 +1,44 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 // import {Link} from 'react-router-dom';
 import {Navbar, Nav} from 'react-bootstrap';
 import './style.css'
 
 function NavigationBar() {
+    // const [scrollPostion, setScrollPosition] = useState('top');
+
+    // useEffect(() => {
+    //     window.addEventListener('scroll', handleScroll);
+    // })
+
+    // const handleScroll = () => {
+    //     console.log('scrolling')
+    //     if (window.scrollY >= 5) {
+    //         setScrollPosition('moved')
+    //     }
+    //     setScrollPosition('top');
+    // }
+
+    // const navOptions =             
+    //     scrollPostion === 'top'
+    //     ?
+    //     'transparent'
+    //     :
+    //     'white'
+
+
     return(
-        <Navbar collapseOnSelect variant='dark' expand="sm" fixed="top">
+        <Navbar collapseOnSelect variant='dark' expand="sm" fixed="top"
+        //  style={{
+        //     backgroundColor: navOptions
+        //     }}
+            >
             <Navbar.Brand href="/">Hayden's Portfolio</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                <Nav.Link href="/home">Home</Nav.Link>
-                <Nav.Link href="/portfolio">Projects</Nav.Link>
-                <Nav.Link href="/contact">Contact Me</Nav.Link>
+                <Nav.Link href="#home">Home</Nav.Link>
+                <Nav.Link href="#portfolio">Projects</Nav.Link>
+                <Nav.Link href="#contact">Contact Me</Nav.Link>
 
                 {/* ****************************************
                 Navbar Dropdown Example for future reference 
