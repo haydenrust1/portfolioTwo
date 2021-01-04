@@ -15,7 +15,9 @@ function ProjectCarousel() {
                 </a>
                 <div className='caption'>
                 <Carousel.Caption>
-                <h3>Employee Directory</h3>
+                <a href='https://employee-directory-hr.herokuapp.com/' target='_blank' rel='noreferrer'>
+                    <h3>Employee Directory</h3>
+                </a>
                 <a href='https://github.com/haydenrust1/employeeDirectory' target='_blank' rel="noreferrer">Repo</a>
                 </Carousel.Caption>
                 </div>
@@ -30,7 +32,9 @@ function ProjectCarousel() {
                 </a>
                 <div className='caption'>
                 <Carousel.Caption>
-                <h3>Budget Tracker</h3>
+                <a href='https://budget-tracker-uo.herokuapp.com/' target='_blank' rel='noreferrer'> 
+                    <h3>Budget Tracker</h3>
+                </a>
                 <a href='https://github.com/haydenrust1/BudgetTracker' target='_blank' rel="noreferrer">Repo</a>
                 </Carousel.Caption>
                 </div>
@@ -45,7 +49,9 @@ function ProjectCarousel() {
                 </a>
                 <div className='caption'>
                 <Carousel.Caption>
-                <h3>Exercise Journal</h3>
+                <a href='https://workout-journal-app.herokuapp.com/?id=5fab35a50e4ac10017962699' target='_blank' rel='noreferrer'>
+                    <h3>Exercise Journal</h3>
+                </a>
                 <a href='https://github.com/haydenrust1/ExerciseJournal' target='_blank' rel="noreferrer">Repo</a>
                 </Carousel.Caption>
                 </div>
@@ -60,7 +66,9 @@ function ProjectCarousel() {
                 </a>
                 <div className='caption'>
                 <Carousel.Caption>
-                <h3>Jeopardize</h3>
+                <a href='https://uo-bootcamp-project-two.herokuapp.com/login' target='_blank' rel='noreferrer'>
+                    <h3>Jeopardize</h3>
+                </a>
                 <a href='https://github.com/haydenrust1/Jeopardize' target='_blank' rel="noreferrer">Repo</a>
                 </Carousel.Caption>
                 </div>
@@ -75,7 +83,9 @@ function ProjectCarousel() {
                 </a>
                 <div className='caption'>
                 <Carousel.Caption>
-                <h3>Eat A Burger</h3>
+                <a href='https://eat-the-burgerzz.herokuapp.com' target='_blank' rel='noreferrer'>
+                    <h3>Eat A Burger</h3>
+                </a>
                 <a href='https://github.com/haydenrust1/ExpressHandlebarsBurger' target='_blank' rel="noreferrer">Repo</a>
                 </Carousel.Caption>
                 </div>
@@ -92,7 +102,9 @@ function ProjectCarousel() {
                 <div className='caption'>
 
                 <Carousel.Caption>
-                <h3>Employee Tracker</h3>
+                <a href='https://github.com/haydenrust1/EmployeeTracker' target='_blank' rel="noreferrer">
+                    <h3>Employee Tracker</h3>
+                </a>
                 <small>Command Line Application</small>
                 <br />
                 <a href='https://github.com/haydenrust1/EmployeeTracker' target='_blank' rel="noreferrer">Repo</a>
