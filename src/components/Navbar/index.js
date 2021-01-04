@@ -27,7 +27,7 @@ function NavigationBar() {
 
 
     return(
-        <Navbar collapseOnSelect variant='dark' expand="sm" fixed="top"
+        <Navbar collapseOnSelect variant='dark' expand="sm" 
         //  style={{
         //     backgroundColor: navOptions
         //     }}

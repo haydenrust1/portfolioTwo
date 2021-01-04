@@ -5,11 +5,13 @@ import Row from '../components/Row';
 import Col from '../components/Column';
 import Astronaut from '../components/Astronaut';
 import Portfolio from '../components/Portfolio';
-import Contact from '../components/Contact'
+import Contact from '../components/Contact';
+import Skills from '../components/Skills';
 
 function Home() {
     return(
             <HomeContainer>
+                {/* Intro */}
                 <Row>
                     <Col>
                         <Jumbotron>
@@ -25,10 +27,26 @@ function Home() {
                         </Jumbotron>
                     </Col>
                 </Row>
+                {/* Portfolio */}
                 <Portfolio />
+                {/* Skill Set */}
                 <Row>
                     <Col>
-                        <Jumbotron>
+                        <div className='imgContainer' style={{marginTop: '20px', width: '100%', textAlign: 'center'}}>
+                            <Skills src='./images/js.png' className='image' alt='javascript'/>
+                            <Skills src='./images/html.png' className='image' alt='html'/>
+                            <Skills src='./images/css.png' className='image css' alt='css'/>
+                            <Skills src='./images/mongo.png' className='image mongo' alt='mongo db'/>
+                            <Skills src='./images/mysql.png' className='image' alt='my sql'/>
+                            <Skills src='./images/node.png' className='image' alt='node'/>
+                            <Skills src='./images/react.png' className='image' alt='react'/>
+                        </div>
+                    </Col>
+                </Row>
+                {/* Personal Info */}
+                <Row>
+                    <Col>
+                        <Jumbotron style={{paddingBottom: '5px'}}>
                             <p>What an honor it is to have a visitor in my humble online abode!
                             <br />
                             Please make yourself at home, stay as long as you want, and have a look around.
@@ -52,11 +70,8 @@ function Home() {
                         </Jumbotron>
                     </Col>
                 </Row>
-                <Row>
-                    <Col>
-                        <Contact />
-                    </Col>
-                </Row>
+                {/* Contact */}
+                <Contact />
             </HomeContainer>    
     )
 }

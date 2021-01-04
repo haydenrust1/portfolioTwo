@@ -1,5 +1,4 @@
 import React from 'react';
-import Container from '../Container';
 import Row from '../Row';
 import Column from '../Column';
 import Jumbotron from '../Jumbotron'
@@ -8,10 +7,9 @@ import './style.css'
 
 function Contact() {
     return(
-        <Container>
             <Row>
                 <Column>
-                    <Jumbotron className='contactJumbo'>
+                    <Jumbotron bsPrefix='contactJumbo'>
                         <a name='contact' />
                         <h1 className="contactHeader">Contact Me</h1>
                         <div className="contactDiv">
@@ -43,7 +41,6 @@ function Contact() {
                     </Jumbotron>
                 </Column>
             </Row>
-        </Container>
     )
 }
 

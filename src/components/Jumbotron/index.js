@@ -4,7 +4,7 @@ import './style.css'
 
 function AppJumbotron(props) {
     return(
-        <Jumbotron fluid style={props.style}>
+        <Jumbotron fluid style={props.style} className={props.bsPrefix}>
             {props.children}
         </Jumbotron>
     )

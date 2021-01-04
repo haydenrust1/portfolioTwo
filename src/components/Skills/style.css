@@ -1,0 +1,21 @@
+img {
+    height: 90px;
+    width: 70px;
+    margin: 20px 20px;
+
+}
+
+.image {
+    margin: 20px 20px;
+    /* background-color: white; */
+}
+
+.mongo {
+    height: 100px;
+    width: 100px;
+    margin: 0px 5px;
+}
+
+.css {
+    margin-bottom: 0px;
+}

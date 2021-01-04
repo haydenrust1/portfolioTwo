@@ -83,7 +83,7 @@ function ProjectCarousel() {
             <Carousel.Item>
                 <a href='https://github.com/haydenrust1/EmployeeTracker' target='_blank' rel="noreferrer">
                     <img
-                    // height="625"
+                    // style={{height: '100% auto'}}
                     className="d-block w-100"
                     src="./images/managerTwo.png"
                     alt="Sixth slide"
