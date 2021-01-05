@@ -15,7 +15,7 @@ function Contact() {
                         <div className="contactDiv">
                             <a 
                             className="contactIcon" 
-                            href="https://www.linkedin.com/inhayden-rust-857516167/" 
+                            href="https://www.linkedin.com/in/hayden-rust-857516167/" 
                             target="_blank">
                                 <i className="fab fa-linkedin fa-7x" />
                             </a>
@@ -33,7 +33,7 @@ function Contact() {
                             </a>
                             <a 
                             className="contactIcon" 
-                            href="../../public/Hayden-Rust-Resume.pdf" 
+                            href="HaydenRustResume.pdf" 
                             target="_blank">
                                 <i className="fas fa-file-pdf fa-7x" />
                             </a>
