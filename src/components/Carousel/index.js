@@ -6,11 +6,28 @@ function ProjectCarousel() {
     return(
         <Carousel className='carousel'>
             <Carousel.Item>
-                <a href='https://employee-directory-hr.herokuapp.com/' target='_blank' rel='noreferrer'>
+                <a href='https://nerdsnextdoor.herokuapp.com/' target='_blank' rel='noreferrer'>
                     <img
                     className="d-block w-100"
                     src="./images/employeeDirectory.png"
                     alt="First slide"
+                    />
+                </a>
+                <div className='caption'>
+                <Carousel.Caption>
+                <a href='https://nerdsnextdoor.herokuapp.com/' target='_blank' rel='noreferrer'>
+                    <h3>Nerds Next Door</h3>
+                </a>
+                <a href='https://github.com/pabloivanjuarez/project-trios' target='_blank' rel="noreferrer">Repo</a>
+                </Carousel.Caption>
+                </div>
+            </Carousel.Item>
+            <Carousel.Item>
+                <a href='https://employee-directory-hr.herokuapp.com/' target='_blank' rel='noreferrer'>
+                    <img
+                    className="d-block w-100"
+                    src="./images/employeeDirectory.png"
+                    alt="Second slide"
                     />
                 </a>
                 <div className='caption'>
@@ -27,7 +44,7 @@ function ProjectCarousel() {
                     <img
                     className="d-block w-100"
                     src="./images/budgetTracker.png"
-                    alt="Second slide"
+                    alt="Third slide"
                     />
                 </a>
                 <div className='caption'>
@@ -44,7 +61,7 @@ function ProjectCarousel() {
                     <img
                     className="d-block w-100"
                     src="./images/fitnessTracker.png"
-                    alt="Third slide"
+                    alt="Fourth slide"
                     />
                 </a>
                 <div className='caption'>
@@ -61,7 +78,7 @@ function ProjectCarousel() {
                     <img
                     className="d-block w-100"
                     src="./images/jeopardized.png"
-                    alt="Fourth slide"
+                    alt="Fifth slide"
                     />
                 </a>
                 <div className='caption'>
@@ -78,7 +95,7 @@ function ProjectCarousel() {
                     <img
                     className="d-block w-100"
                     src="./images/EatABurger.png"
-                    alt="Fifth slide"
+                    alt="Sixth slide"
                     />
                 </a>
                 <div className='caption'>
@@ -96,7 +113,7 @@ function ProjectCarousel() {
                     // style={{height: '100% auto'}}
                     className="d-block w-100"
                     src="./images/managerTwo.png"
-                    alt="Sixth slide"
+                    alt="Seventh slide"
                     />
                 </a>
                 <div className='caption'>
